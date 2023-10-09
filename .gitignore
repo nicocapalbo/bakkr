@@ -31,8 +31,16 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+#Ignore env files
+/.env
+/config/credentials/production.key
+/config/credentials/development.key
+
+# .idea files
 /.idea/.gitignore
 /.idea/bakkr.iml
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
+
